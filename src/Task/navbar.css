@@ -1,0 +1,82 @@
+.body{
+    /* background-image:url(https://assets.website-files.com/63fc977c14aaea404dce4439/64b79e17c53f6825418ffcee_BG_Tablet.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed; */
+    /* background-color: black; */
+    color: white;
+   
+}
+
+#getIn{
+
+    padding:5px 15px;
+    background-color: white;
+    color: black;
+    gap: 10px;
+    border-radius: 30px;
+}
+#pen{
+    background-color: blue;
+    padding: 10px;
+    border-radius: 50%;
+}
+.navtag{
+    margin: 40px 0px;
+    padding: 0px;
+    width: 100%;
+  
+  
+}
+hr{
+    background-color: black;
+    color: black;
+    width: 89%;
+}
+
+article{
+    width: 88%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    /* gap: 20px; */
+    flex-wrap: wrap;
+}
+.navelement{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+#bar{
+    display: none;
+}
+@media screen and (max-width:490px){
+    #getIn{
+        display: none;
+    }
+    #bar{
+        display: block;
+    }
+    .navelement{
+        display: none;
+    }
+}
+@media (min-width:491px)  and (max-width:845px){
+    #bar{
+        display: block;
+    }
+    #getIn{
+        display: block;
+    }
+    .navelement{
+        display: none;
+    }
+}
+/* @media screen and (max-width:845px){
+    
+   
+   
+} */

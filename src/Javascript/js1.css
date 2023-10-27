@@ -1,0 +1,20 @@
+#sec{
+    background-color: whitesmoke;
+    height: auto;
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    /* flex-wrap: wrap; */
+}
+.cards{
+    height: 400px;
+    width: 300px;
+    box-shadow: 2px 2px 2px 2px black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+}

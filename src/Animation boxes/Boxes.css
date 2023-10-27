@@ -1,0 +1,22 @@
+.container{
+    height: 500px;
+    width: 1500px;
+    border: 1px solid black;
+    position: relative;
+    margin: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-end;
+
+
+}
+ .oneBox{
+    height: 100px;
+    width: 200px;
+    border: 1px solid black;
+    
+    margin: 10px;
+   
+
+}

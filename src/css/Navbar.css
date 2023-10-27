@@ -1,0 +1,29 @@
+div{
+    margin: 0;
+    padding: 0;
+
+}
+.Navbar{
+    width: 100%;
+    background: linear-gradient(#616161,#9bc5c3);
+    
+    
+  
+}
+article{
+    width: 80%;
+    height: 50px;
+    background-color: rgb(157, 37, 37);
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 10px;
+  flex-wrap: wrap;
+}
+.navdiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}

@@ -1,0 +1,16 @@
+footer{
+    text-align: center;
+}
+.footend{
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+.footdiv{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    
+}
